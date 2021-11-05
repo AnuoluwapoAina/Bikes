@@ -70,11 +70,13 @@ body {
 #shops h2 {
   font-size: 16px;
   margin-bottom: 0;
+  color: #fff;
 }
 
 #shops span.price {
   display: block;
   font-size: 58px;
+  color: #fff;
 }
 
 #shops a.add-to-basket{
