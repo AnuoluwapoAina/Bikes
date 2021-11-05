@@ -1,0 +1,99 @@
+
+  * {
+    box-sizing: border-box;
+  }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  font-family: arial;
+  background-image: url(background-img.jpg);
+  display: block;
+}
+
+#full-container {
+  background:#0f285f;
+  width: 980px;
+  margin: 0 auto;
+}
+
+
+#navbar {
+  background: #181818;
+  padding: 10px;
+}
+
+#navbar ul {
+  text-align: right;
+  margin-right: 10px;
+  list-style-type: none;
+}
+
+#navbar li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#navbar a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px;
+}
+
+#navbar a.current {
+  background-color: #6e6c8f;
+  border-radius: 12px;
+}
+
+
+#navbar a:active {
+  color: #8ddcb6;
+}
+
+#navbar a:hover {
+  background: #0f285f;
+  border-radius: 5px;
+}
+
+#top-banner img {
+  width: 100%;
+}
+
+#shops {
+  margin: 30px 0;
+  text-align: center;
+}
+
+#shops h2 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+#shops span.price {
+  display: block;
+  font-size: 58px;
+}
+
+#shops a.add-to-basket{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #8ddcb6;
+  font-size: 12px;
+  padding: 10px 0px;
+  border: 2px solid #8ddcb6;
+  margin: 20px auto;
+  width: 210px;
+  display: block;
+}
+
+#shops a.add-to-basket:hover {
+  background-color: #5e8a75;
+  color: #fff;
+}
+
+#last-banner img{
+  width: 100%;
+}
