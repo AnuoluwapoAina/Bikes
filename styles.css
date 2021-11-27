@@ -99,21 +99,3 @@ body {
 #last-banner img{
   width: 100%;
 }
-
-
-@media screen and (max-width: 1024px) {
-
-  #full-container {
-    width: 850px;
-    margin: 0 auto;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-
-  #full-container {
-    width: 800px;
-    margin: 0 auto;
-  }
-}
