@@ -14,7 +14,6 @@ body {
   width: 100%;
   height: unset;
   background-image: url(background-img.jpg);
-  display: flex;
   justify-content: center;
   align-items: center;
 
