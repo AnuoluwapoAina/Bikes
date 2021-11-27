@@ -13,7 +13,7 @@ body {
   #main-container{
   width: 100%;
   height: 100vh;
-  background-image: url(css/background-img.jpg);
+  background-image: url(background-img.jpg);
   display: flex;
   justify-content: center;
   align-items: center;
